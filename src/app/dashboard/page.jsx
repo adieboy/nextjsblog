@@ -90,6 +90,7 @@ const Dashboard = () => {
     }
   };
 
+  console.log(data);
   if (session.status === "authenticated") {
     return (
       <div className={styles.container}>
